@@ -1,5 +1,29 @@
 {
   "dependencies": {
-    "express": "^4.18.1"
-  }
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "nodemon": "^2.0.19"
+  },
+  "name": "taskmanager-",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon populate.js",
+    "startApp": "nodemon app.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwin496/TASKMANAGER-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lwin496/TASKMANAGER-/issues"
+  },
+  "homepage": "https://github.com/lwin496/TASKMANAGER-#readme"
 }
