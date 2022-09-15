@@ -1,7 +1,7 @@
-let {task} = require('../data')
+const {data} = require('../data.json')
 
 const readTask = (req, res) =>{ 
-      res.join({joined: true})
+    
 }
 
 const createTask  = (req, res) =>{
@@ -13,10 +13,10 @@ const createTask  = (req, res) =>{
 }
 
 
-const deleteTask = (req, res) =>{}
-
-
-// const createTask = (req, res) =>{
+const deleteTask = (req, res) =>{
       
-
 }
+
+
+
+module.exports = {readTask, createTask, deleteTask}
